@@ -1,0 +1,24 @@
+<div>
+    <hr id="HR_DIV" />
+    <div id="SEARCH_DIV">
+        <div class="input-group" id="SEARCH_FORM_DIV">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search">
+            <span class="input-group-btn">
+                <button class="btn btn-default" id="SEARCH_BUTTON_DIV" type="button">Go!</button>
+            </span>
+        </div>
+    </div>
+    <br/>
+    <div id="SEARCH_RESULTS_HEADER_DIV">
+         <span id="RESULTS_DIV">{{resultCount}} Results</span>
+         <a id="FILTER_DIV">Filter >></a>
+    </div>
+
+    <ul class = "list-group">
+    <searchModule *ngFor="#result of results"
+        [title]="result.title"
+        [imgUrl]="result.imgUrl"
+        [price]="result.price">
+    </searchModule>
+    </ul>
+</div>
