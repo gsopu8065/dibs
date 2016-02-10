@@ -1,0 +1,18 @@
+.HR_DIV {
+    border-top: 1px solid black;
+    margin: 0px;
+}
+
+#CONTINUE_BUTTON_DIV{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 112px;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-right: 27px;
+    margin-left: 20%;
+    border: 1px solid;
+    background-color: #ffc579;
+    font-weight: 900;
+}
+

@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div>
+    <hr class="HR_DIV" />
+    <div>
+        <button id="CONTINUE_BUTTON_DIV">Continue to checkout</button>
+    </div>
+    <ul class = "list-group">
+        <viewCartItem *ngFor="#result of results"
+                      [title]="result.title"
+                      [imgUrl]="result.imgUrl"
+                      [price]="result.price"
+                      [quantity]="result.quantity">
+        </viewCartItem>
+    </ul>
 
-</body>
-</html>
+</div>
