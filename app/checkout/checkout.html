@@ -1,3 +1,14 @@
 <div>
+    <br/>
+    <form [ngFormModel]="form" class="form-horizontal">
+        <div class="form-group">
+            <label for="firstName" class="col-sm-4 control-label FORMLABEL">First Name</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control FORMCONTROL" id="firstName" ngControl="firstName">
+            </div>
+        </div>
 
+
+        <!--<button (click)="submitData()" [disabled]="!form.valid" class="btn btn-primary">Sumbit data</button>-->
+    </form>
 </div>
