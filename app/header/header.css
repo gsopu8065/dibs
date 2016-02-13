@@ -18,6 +18,10 @@
     height: 45px;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 .custom-navbar .fa {font-size:25px}
 
 .navbar-inverse .navbar-toggle .icon-bar  {

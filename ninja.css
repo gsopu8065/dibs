@@ -24,4 +24,15 @@
     .custom-navbar .nav.navbar-nav.navbar-right .IMG_ICON_DIV{
         height: 35px;
     }
+
+    .searchContainer{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .searchContainer #SEARCH_DIV #SEARCH_FORM_DIV{
+        margin-left: 7%;
+        margin-right: 15%;
+        margin-top: 12px;
+    }
 }
