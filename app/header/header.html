@@ -1,3 +1,4 @@
+<!--
 <div id="HEADER_DIV">
     <span class="border-menu"></span>
     <b><span id="DIBS_DIV">Dibs</span></b>
@@ -7,4 +8,68 @@
     <div id="SHOPPING_CART_DIV">
         <a><img id="SHOPPING_ICON_DIV" src="./app/header/img/shopping_cart.png" /></a>
     </div>
-</div>
+</div>-->
+<!--
+<nav class="navbar navbar-inverse navbar-fixed-top" id="HEADER_DIV">
+    <div class="container">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="DIBS_DIV" href="">Dibs</a>
+            <span class="navbar-brand navbar-right pull-right" id="HEADER_RIGHT">
+                <a><img  src="./app/header/img/user_icon.png" /></a>
+                <a><img  src="./app/header/img/shopping_cart.png" /></a>
+            </span>
+        </div>
+        &lt;!&ndash;<span class="navbar-right" id="HEADER_RIGHT">
+                <a><img  src="./app/header/img/user_icon.png" /></a>
+                <a><img  src="./app/header/img/shopping_cart.png" /></a>
+        </span>&ndash;&gt;
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Deals</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>&lt;!&ndash;/.nav-collapse &ndash;&gt;
+    </div>
+</nav>-->
+<nav class="navbar navbar-inverse navbar-static-top custom-navbar" role="navigation" id="HEADER_DIV">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+            <a class="navbar-brand " href="#" id="DIBS_DIV">
+                Dibs
+            </a>
+        </div>
+        <!-- Non-collapsing right-side icons -->
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a><img class="IMG_ICON_DIV"  src="./app/header/img/shopping_cart.png" /></a>
+            </li>
+            <li>
+                <a><img class="IMG_ICON_DIV" src="./app/header/img/user_icon.png" /></a>
+            </li>
+        </ul>
+        <!-- the collapsing menu -->
+        <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+    <!--/.container -->
+</nav>

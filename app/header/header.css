@@ -1,8 +1,5 @@
+
 #HEADER_DIV{
-    padding-left: 20px;
-    height: 130px;
-    width: 100%;
-    display: table;
     background: #1affff;
     background: -webkit-linear-gradient(left, #1affff , white);
     background: -o-linear-gradient(right, #1affff, white);
@@ -11,46 +8,18 @@
 }
 
 #DIBS_DIV{
-    display: table-cell;
-    vertical-align:middle;
-    padding-top: 35px;
-    padding-left: 95px;
+    color: black;
     font-family: fantasy;
-    font-size: 70px;
+    font-size: 30px;
+    padding-top: 22px;
 }
 
-.border-menu {
-    display: table-cell;
-    position: relative;
-    padding-left: 7px;
-    font-size: 88px;
-    padding-top: 55px;
-}
-.border-menu:before {
-    content: "";
-    position: absolute;
-    width: 1em;
-    height: 40px;
-    border-top: 22px double #000;
-    border-bottom: 8px solid #000;
+.IMG_ICON_DIV{
+    height: 45px;
 }
 
-#SHOPPING_CART_DIV{
-    display: table-cell;
-    vertical-align: middle;
-}
+.custom-navbar .fa {font-size:25px}
 
-#SHOPPING_ICON_DIV{
-    min-width: 88px;
-    margin-left: -65px;
-}
-
-#USER_DIV{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#USER_ICON_DIV{
-    min-width: 88px;
-    margin-left: -45px;
+.navbar-inverse .navbar-toggle .icon-bar  {
+    background-color: black;
 }
