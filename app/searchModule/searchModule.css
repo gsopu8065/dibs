@@ -3,7 +3,7 @@
     width: 100%;
     font-size: 20px;
     vertical-align: top;
-    padding-top: 35px;
+    padding-top: 10px;
 }
 #DIV_LEFT {
     display: table-cell;
@@ -31,17 +31,16 @@
 }
 
 #SEEDETAILS_DIV{
-    font-size: 20px;
     border: 1px solid;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 #DIBSBUTTON_DIV{
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border:1px solid #d1dcdf; -webkit-border-radius: 12px; -moz-border-radius: 12px;border-radius: 12px;font-size:20px;font-family:verdana, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #050100;
+    border:1px solid #d1dcdf; -webkit-border-radius: 12px; -moz-border-radius: 12px;border-radius: 12px;font-family:verdana, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #050100;
     background-color: #f2f5f6; background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), to(#c8d7dc));
     background-image: -webkit-linear-gradient(top, #f2f5f6, #c8d7dc);
     background-image: -moz-linear-gradient(top, #f2f5f6, #c8d7dc);

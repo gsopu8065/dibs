@@ -2,6 +2,7 @@
 
     /*for mobile*/
 
+    /* Header CSS Start*/
     .custom-navbar .navbar-right {
         float: right;
         padding-right: 15px;
@@ -27,11 +28,13 @@
     .custom-navbar .nav.navbar-nav.navbar-right .IMG_ICON_DIV{
         height: 35px;
     }
+    /* Header CSS END*/
 
+    /* Search CSS Start*/
     .searchContainer{
         padding: 0px;
         margin: 0px;
-        margin-top: 66px;
+        margin-top: 66px !important;
     }
 
     .searchContainer #SEARCH_DIV #SEARCH_FORM_DIV{
@@ -39,13 +42,22 @@
         margin-right: 15%;
         margin-top: 12px;
     }
+    /* Search CSS Start*/
+
+    /* Search component CSS Start*/
+    #RESULT_COMPONENT_DIV #DIV_LEFT #IMG_DIV{
+        max-width: 120px;
+        max-height: 210px;
+    }
+
+    #RESULT_COMPONENT_DIV #DIV_RIGHT{
+        font-size: 16px;
+    }
+    /* Search component CSS End*/
 }
 @media (min-width:767px) {
 
     /*for desktop*/
 
-    .searchContainer{
-        margin-top: 76px;
-    }
 
 }
