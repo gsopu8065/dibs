@@ -54,6 +54,16 @@
         font-size: 16px;
     }
     /* Search component CSS End*/
+
+    /* View cart CSS Start*/
+    .viewCartContainer{
+        padding: 0px;
+        margin: 0px;
+        margin-top: 66px !important;
+    }
+
+    /* View cart CSS Start*/
+
 }
 @media (min-width:767px) {
 

@@ -1,18 +1,27 @@
 .HR_DIV {
-    border-top: 1px solid black;
     margin: 0px;
 }
 
 #CONTINUE_BUTTON_DIV{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 112px;
-    font-size: 45px;
-    padding-left: 30px;
-    padding-right: 27px;
-    margin-left: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid;
     background-color: #ffc579;
     font-weight: 900;
+    float: right;
+    margin-right: 10%;
 }
 
+.viewCartContainer{
+    margin-top: 76px;
+}
+
+.CARTINFO_DIV{
+    height: 80px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.CARTSIZE_DIV{
+    padding-left: 10%;
+}
