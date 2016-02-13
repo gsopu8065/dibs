@@ -1,7 +1,7 @@
 #DIV_RIGHT {
     display: table-cell;
     width: 100%;
-    font-size: 35px;
+    font-size: 20px;
     vertical-align: top;
     padding-top: 35px;
 }
@@ -20,18 +20,18 @@
 }
 
 #RESULT_COMPONENT_DIV{
-    height: 420px;
+    height: 270px;
     border-left: 0px;
     border-right: 0px;
 }
 
 #IMG_DIV{
-    max-width: 253px;
-    max-height: 400px;
+    max-width: 170px;
+    max-height: 230px;
 }
 
 #SEEDETAILS_DIV{
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid;
     padding-left: 10px;
     padding-right: 20px;
@@ -41,7 +41,7 @@
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border:1px solid #d1dcdf; -webkit-border-radius: 12px; -moz-border-radius: 12px;border-radius: 12px;font-size:22px;font-family:verdana, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #050100;
+    border:1px solid #d1dcdf; -webkit-border-radius: 12px; -moz-border-radius: 12px;border-radius: 12px;font-size:20px;font-family:verdana, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #050100;
     background-color: #f2f5f6; background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), to(#c8d7dc));
     background-image: -webkit-linear-gradient(top, #f2f5f6, #c8d7dc);
     background-image: -moz-linear-gradient(top, #f2f5f6, #c8d7dc);
