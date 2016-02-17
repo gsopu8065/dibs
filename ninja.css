@@ -64,6 +64,24 @@
 
     /* View cart CSS Start*/
 
+    /*Checkout CSS start*/
+    .checkoutContainer div#MyForm{
+        width: 85%;
+    }
+    .checkoutContainer #MyForm label{
+        padding-left: 15px;
+    }
+    /*Checkout CSS end*/
+
+    /*Payment CSS Start*/
+    .paymentContainer div#MyForm{
+        width: 85%;
+    }
+    .paymentContainer #MyForm label{
+        padding-left: 15px;
+    }
+    /*Payment CSS End*/
+
 }
 @media (min-width:767px) {
 

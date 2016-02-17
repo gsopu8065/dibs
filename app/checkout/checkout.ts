@@ -13,14 +13,6 @@ import {
     CORE_DIRECTIVES
 } from 'angular2/common';
 
-/*// An example of typical model
-class Address {
-    street: string;
-    city: string;
-    state: string;
-    zip: string;
-}*/
-
 @Component({
     selector: 'checkout',
     templateUrl: 'app/checkout/checkout.html',
@@ -32,13 +24,31 @@ export class Checkout {
     form: ControlGroup;
 
     firstName: Control;
+    lastName: Control;
+    streetAddress: Control;
+    zipCode: Control;
+    state: Control;
+    city: Control;
+    email: Control;
 
     constructor(@Inject(FormBuilder) private builder: FormBuilder) {
 
         this.firstName = new Control("", Validators.compose([Validators.required]));
+        this.lastName = new Control("", Validators.compose([Validators.required]));
+        this.streetAddress = new Control("", Validators.compose([Validators.required]));
+        this.zipCode = new Control("", Validators.compose([Validators.required]));
+        this.state = new Control("", Validators.compose([Validators.required]));
+        this.city = new Control("", Validators.compose([Validators.required]));
+        this.email = new Control("", Validators.compose([Validators.required]));
 
         this.form = builder.group({
-            firstName:  this.firstName
+            firstName:  this.firstName,
+            lastName: this.lastName,
+            streetAddress: this.streetAddress,
+            zipCode: this.zipCode,
+            city: this.city,
+            state: this.state,
+            email: this.email
         });
     }
 
