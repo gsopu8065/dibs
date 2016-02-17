@@ -12,12 +12,13 @@ import {
     FORM_DIRECTIVES,
     CORE_DIRECTIVES
 } from 'angular2/common';
+import {RouteParams, Router, ROUTER_DIRECTIVES} from 'angular2/router';
 
 @Component({
     selector: 'checkout',
     templateUrl: 'app/checkout/checkout.html',
     styleUrls: ['app/checkout/checkout.css'],
-    directives: [FORM_DIRECTIVES]
+    directives: [ROUTER_DIRECTIVES, FORM_DIRECTIVES, CORE_DIRECTIVES]
 })
 
 export class Checkout {
@@ -31,7 +32,8 @@ export class Checkout {
     city: Control;
     email: Control;
 
-    constructor(@Inject(FormBuilder) private builder: FormBuilder) {
+    constructor(@Inject(FormBuilder) private builder: FormBuilder,
+                @Inject(Router) public _router:Router) {
 
         this.firstName = new Control("", Validators.compose([Validators.required]));
         this.lastName = new Control("", Validators.compose([Validators.required]));
@@ -52,8 +54,9 @@ export class Checkout {
         });
     }
 
-    submitData(){
-        console.log(JSON.stringify(this.form.value))
+    continueToPayment(){
+        console.log("jack")
+        this._router.navigate(['Payment']);
     }
 }
 
