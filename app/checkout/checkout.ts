@@ -56,7 +56,7 @@ export class Checkout {
 
     continueToPayment(){
         console.log("jack")
-        this._router.navigate(['Payment']);
+        this._router.parent.navigate(['Payment']);
     }
 }
 
