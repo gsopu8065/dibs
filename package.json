@@ -10,13 +10,10 @@
   },
   "devDependencies":{
 
-    "browser-sync": "^2.10.0",
-    "del": "^2.1.0",
-    "gulp": "^3.9.0"
 
 
   },
   "scripts":{
-    "start": "gulp serve"
+
   }
 }
