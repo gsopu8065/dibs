@@ -14,9 +14,15 @@
     "karma-chrome-launcher": "0.2.2",
     "karma-coverage": "0.5.3",
     "karma-jasmine": "0.3.6",
-    "remap-istanbul": "0.5.1"
+    "remap-istanbul": "0.5.1",
+
+    "protractor": "^3.0.0",
+    "jasmine-spec-reporter": "^2.4.0"
   },
   "scripts":{
+    "start": "http-server -c-1 -o -p 5555 .",
+    "webserverStart": "webdriver-manager update && webdriver-manager start",
+    "e2e": "protractor",
     "build": "rm -rf dist && tsc -p app",
     "test": "karma start karma.conf.js",
     "coverage": "node_modules/.bin/remap-istanbul -i coverage/coverage-final.json -o coverage -t html && http-server -c-1 -o -p 9875 ./coverage"
