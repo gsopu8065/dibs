@@ -12,11 +12,12 @@ import {
     FORM_DIRECTIVES,
     CORE_DIRECTIVES
 } from 'angular2/common';
+import {RouteParams, Router, ROUTER_DIRECTIVES} from 'angular2/router';
 @Component({
     selector: 'payment',
     templateUrl: 'app/payment/payment.html',
     styleUrls: ['app/payment/payment.css'],
-    directives: [FORM_DIRECTIVES]
+    directives: [FORM_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 
 export class Payment {
@@ -40,10 +41,6 @@ export class Payment {
             cvv: this.cvv
 
         });
-    }
-
-    submitData(){
-        console.log(JSON.stringify(this.form.value))
     }
 }
 

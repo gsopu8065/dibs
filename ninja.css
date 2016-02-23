@@ -82,6 +82,18 @@
     }
     /*Payment CSS End*/
 
+    /* Review CSS Start*/
+    .reviewContainer div#MyForm{
+        width: 85%;
+    }
+    .reviewContainer div#TITLE{
+        width: 85%;
+    }
+    .reviewContainer div.SHIPPINGPANEL{
+        width: 85%;
+    }
+    /* Review CSS End */
+
 }
 @media (min-width:767px) {
 

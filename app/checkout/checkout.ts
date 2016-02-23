@@ -53,10 +53,5 @@ export class Checkout {
             email: this.email
         });
     }
-
-    continueToPayment(){
-        console.log("jack")
-        this._router.parent.navigate(['Payment']);
-    }
 }
 

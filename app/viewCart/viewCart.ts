@@ -27,6 +27,6 @@ export class ViewCart {
     }
 
     continueToCheckout(){
-        this._router.parent.navigate(['Checkout']);
+        this._router.navigate(['Checkout']);
     }
 }

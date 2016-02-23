@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="form-group">
-            <button (click)="continueToPayment()" [disabled]="!form.valid" class="btn btn-primary FORMSUBMIT">Continue to payment</button>
+            <button [routerLink]="['Payment']" [disabled]="!form.valid" class="btn btn-primary FORMSUBMIT">Continue to payment</button>
         </div>
     </form>
 
