@@ -13,11 +13,14 @@ import {
     CORE_DIRECTIVES
 } from 'angular2/common';
 import {RouteParams, Router, ROUTER_DIRECTIVES} from 'angular2/router';
+import {ValidationService} from '../validations/ValidationService'
+import {ControlMessages} from '../validations/ControlMessages'
+
 @Component({
     selector: 'payment',
     templateUrl: 'app/payment/payment.html',
     styleUrls: ['app/payment/payment.css'],
-    directives: [FORM_DIRECTIVES, ROUTER_DIRECTIVES]
+    directives: [FORM_DIRECTIVES, ROUTER_DIRECTIVES, ControlMessages]
 })
 
 export class Payment {
