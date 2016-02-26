@@ -17,6 +17,8 @@
 
 #PRICE_DIV{
     color: #B72E2E;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #RESULT_COMPONENT_DIV{
@@ -37,24 +39,10 @@
 }
 
 #DIBSBUTTON_DIV{
-    margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border:1px solid #d1dcdf; -webkit-border-radius: 12px; -moz-border-radius: 12px;border-radius: 12px;font-family:verdana, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #050100;
-    background-color: #f2f5f6; background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), to(#c8d7dc));
-    background-image: -webkit-linear-gradient(top, #f2f5f6, #c8d7dc);
-    background-image: -moz-linear-gradient(top, #f2f5f6, #c8d7dc);
-    background-image: -ms-linear-gradient(top, #f2f5f6, #c8d7dc);
-    background-image: -o-linear-gradient(top, #f2f5f6, #c8d7dc);
-    background-image: linear-gradient(to bottom, #f2f5f6, #c8d7dc);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f5f6, endColorstr=#c8d7dc);
+    border: 1px solid;
+    background-color: #ffc579;
+    margin-top: 5px;
 }
 
-#DIBSBUTTON_DIV:hover{
-    border:1px solid #b6c7cc;
-    background-color: #d4dee1; background-image: -webkit-gradient(linear, left top, left bottom, from(#d4dee1), to(#a9c0c8));
-    background-image: -webkit-linear-gradient(top, #d4dee1, #a9c0c8);
-    background-image: -moz-linear-gradient(top, #d4dee1, #a9c0c8);
-    background-image: -ms-linear-gradient(top, #d4dee1, #a9c0c8);
-    background-image: -o-linear-gradient(top, #d4dee1, #a9c0c8);
-    background-image: linear-gradient(to bottom, #d4dee1, #a9c0c8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d4dee1, endColorstr=#a9c0c8);
-}

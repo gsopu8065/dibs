@@ -9,7 +9,7 @@
     background-color: #ffc579;
     font-weight: 900;
     float: right;
-    margin-right: 10%;
+    margin-right: 18%;
 }
 
 .viewCartContainer{
@@ -17,11 +17,17 @@
 }
 
 .CARTINFO_DIV{
-    height: 80px;
+    height: 50px;
     font-size: 18px;
     padding-top: 10px;
 }
 
 .CARTSIZE_DIV{
     padding-left: 10%;
+}
+
+.VIEWCARTPANEL{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }

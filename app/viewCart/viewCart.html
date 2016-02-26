@@ -1,16 +1,18 @@
 <div class="container viewCartContainer">
     <hr class="HR_DIV" />
     <div class="CARTINFO_DIV">
-        <span class="CARTSIZE_DIV">View cart ({{results.length}} Items) </span>
-        <button (click)="continueToCheckout()" id="CONTINUE_BUTTON_DIV">Continue to checkout</button>
+        <button class="btn btn-default" (click)="continueToCheckout()" id="CONTINUE_BUTTON_DIV">Continue to checkout</button>
     </div>
-    <ul class = "list-group">
+    <div class="panel panel-info VIEWCARTPANEL">
+        <div class="panel-heading">
+            <h3 class="panel-title">View cart ({{results.length}} Items)</h3>
+        </div>
         <viewCartItem *ngFor="#result of results"
                       [title]="result.title"
                       [imgUrl]="result.imgUrl"
                       [price]="result.price"
                       [quantity]="result.quantity">
         </viewCartItem>
-    </ul>
+    </div>
 
 </div>

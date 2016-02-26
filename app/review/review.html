@@ -2,7 +2,7 @@
     <br/>
     <div id="TITLE">
         Review Order
-        <button id="PLACEORDER_BUTTON_DIV">Confirm Order</button>
+        <button class="btn btn-default" id="PLACEORDER_BUTTON_DIV" type="submit">Confirm Order</button>
     </div>
     <div class="panel panel-info SHIPPINGPANEL">
         <div class="panel-heading">
@@ -11,7 +11,7 @@
         <div class="panel-body">
             1016 N Plum grove rd, Apt 101 <br/>
             Nashville, TN, 37221
-            <button class="EDIT_BUTTON_DIV">Edit Adress</button>
+            <button [routerLink]="['Checkout']" class="btn btn-default EDIT_BUTTON_DIV">Edit Address</button>
         </div>
     </div>
     <div class="panel panel-info SHIPPINGPANEL">
@@ -19,8 +19,9 @@
             <h3 class="panel-title">Payment Details</h3>
         </div>
         <div class="panel-body">
-
-            <button class="EDIT_BUTTON_DIV">Edit Adress</button>
+            XXXXXXXXXXXX3245 <br/>
+            Expire date: 12/11
+            <button [routerLink]="['Payment']" class="btn btn-default EDIT_BUTTON_DIV">Edit Payment</button>
         </div>
     </div>
     <div class="panel panel-info SHIPPINGPANEL">

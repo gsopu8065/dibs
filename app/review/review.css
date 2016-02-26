@@ -6,10 +6,9 @@
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    font-family: fantasy;
     font-weight: 700;
     font-size: 15px;
-    height: 36px;
+    height: 45px;
 }
 
 #PLACEORDER_BUTTON_DIV{
@@ -30,6 +29,8 @@
 
 .EDIT_BUTTON_DIV{
     float: right;
+    border: 1px solid;
+    background-color: #ffc579;
 }
 
 #IMG_DIV{

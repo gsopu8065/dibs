@@ -61,7 +61,12 @@
         margin: 0px;
         margin-top: 66px !important;
     }
-
+    .viewCartContainer div.VIEWCARTPANEL{
+        width: 90%;
+    }
+    .viewCartContainer button#CONTINUE_BUTTON_DIV{
+        margin-right: 6%;
+    }
     /* View cart CSS Start*/
 
     /*Checkout CSS start*/
