@@ -1,7 +1,7 @@
 <li  class="list-group-item" id="RESULT_COMPONENT_DIV">
 
     <div id="DIV_LEFT">
-        <a href=""><img src="{{imgUrl}}" alt="" id="IMG_DIV"/></a>
+        <a [routerLink]="['CartItemView', {'cartItemId':id }]" href=""><img src="{{imgUrl}}" alt="" id="IMG_DIV"/></a>
     </div>
 
     <div id="DIV_RIGHT">

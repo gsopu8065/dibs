@@ -9,6 +9,7 @@ import {Payment} from '../payment/payment.ts'
 import {Checkout} from '../checkout/checkout.ts'
 import {Review} from '../review/review.ts'
 import {Header} from '../header/header.ts'
+import {CartItemView} from "../cartItemView/cartItemView";
 
 @Component({
     selector: 'home',
@@ -20,6 +21,7 @@ import {Header} from '../header/header.ts'
 @RouteConfig([
     {path: '/', component: Search, name: 'Home', useAsDefault: true},
     {path: '/viewCart', component: ViewCart, name: 'ViewCart'},
+    {path: '/cartItemView/:cartItemId', component: CartItemView, name: 'CartItemView'},
     {path: '/checkout', component: Checkout, name: 'Checkout'},
     {path: '/payment', component: Payment, name: 'Payment'},
     {path: '/review', component: Review, name: 'Review'}

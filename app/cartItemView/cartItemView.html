@@ -1,0 +1,31 @@
+<div class="container-fluid cartItemContainer">
+    <div class="row VIEWCARTROW">
+        <div class="col-md-7">
+            <div class="image-gallery">
+                <div class="big-image">
+                    <img id="default" src="{{mainImage}}">
+                    <ul>
+                        <li *ngFor="#result of cartImages;#i = index" (click)="changeImage(i)">
+                            <img class="IMGICON" src="{{result}}"/> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="CART_ITEM_TITLE">{{cartItemTitle}}</div>
+            <div class="CART_ITEM_PRICE">{{cartItemPrice}}</div>
+            <select class="form-control" id="QUANTITY_DIV">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <button class="btn btn-primary" id="ADDTOCART_BUTTON">Add to cart</button>
+        </div>
+    </div>
+</div>

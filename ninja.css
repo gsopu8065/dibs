@@ -30,6 +30,13 @@
     }
     /* Header CSS END*/
 
+    /* Cart Item CSS Start*/
+    .cartItemContainer div.image-gallery{
+        width: 100%;
+    }
+
+    /* Cart Item CSS End*/
+
     /* Search CSS Start*/
     .searchContainer{
         padding: 0px;
