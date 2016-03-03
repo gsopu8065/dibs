@@ -1,9 +1,6 @@
 ## Customize the test machine
 machine:
 
-  timezone:
-    America/Nashville # Set the timezone
-
   # Version of node to use
   node:
     version: 4.3.0
