@@ -5,3 +5,6 @@ machine:
   node:
     version: 4.3.0
     
+dependencies:
+  cache_directories:
+    - "node_modules"
