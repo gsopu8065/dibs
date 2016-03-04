@@ -9,6 +9,7 @@ install:
 - npm install karma -g
 - npm install karma-cli -g
 - npm install jspm -g
+- npm install
 script:
 - npm run-script build
 - npm run-script test
