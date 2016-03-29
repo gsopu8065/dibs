@@ -26,8 +26,9 @@ describe('Basic Checkout', function () {
         expect(homePage.accountLogo.isPresent()).toEqual(true);
         homePage.cartLogo.click();
 
+        browser.sleep(2000)
         viewCartPage.continueToCheckout.click();
-
+        browser.sleep(2000)
         checkoutPage.email.sendKeys('srujanjack@gmail.com')
         checkoutPage.firstName.sendKeys('srujan')
         checkoutPage.lastName.sendKeys('jack')
@@ -36,13 +37,13 @@ describe('Basic Checkout', function () {
         checkoutPage.city.sendKeys('Nashville')
         checkoutPage.state.sendKeys('TN')
         checkoutPage.continueToPayment.click();
-
+        browser.sleep(2000)
         paymentPage.cardNumber.sendKeys('543456789865')
         paymentPage.expireMonth.sendKeys('12')
         paymentPage.cvv.sendKeys('456')
         paymentPage.reviewOrder.click();
-
         browser.sleep(5000)
+        /*browser.sleep(5000)*/
 
     });
 

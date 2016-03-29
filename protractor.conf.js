@@ -1,5 +1,5 @@
 exports.config = {
-    baseUrl: 'http://localhost:5555',
+    baseUrl: 'http://localhost:63342/dibs',
 
     specs: [
         'e2e/*.js'
