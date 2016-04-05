@@ -25,7 +25,7 @@
     "jasmine-spec-reporter": "^2.4.0"
   },
   "scripts":{
-    "start": "http-server -c-1 -o -p 5555 .",
+    "start": "node_modules/http-server/bin/http-server -c-1 -o -p 5555 .",
     "webserverStart": "webdriver-manager update && webdriver-manager start",
     "e2e": "protractor",
     "build": "rm -rf dist && tsc -p app",
