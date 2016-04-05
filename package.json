@@ -1,6 +1,10 @@
 {
   "name": "application-name",
   "version": "0.0.1",
+  "engines": {
+    "node": "4.3.0",
+    "npm": "2.14.12"
+  },
   "dependencies": {
     "systemjs": "^0.19.20",
     "typescript": "^1.6.2",
