@@ -28,7 +28,7 @@
     "express": "4.13.4"
   },
   "scripts":{
-    /*"start": "http-server -c-1 -o -p 5555 .",*/
+    "start1": "http-server -c-1 -o -p 5555 .",
     "webserverStart": "webdriver-manager update && webdriver-manager start",
     "e2e": "protractor",
     "build": "rm -rf dist && tsc -p app",
